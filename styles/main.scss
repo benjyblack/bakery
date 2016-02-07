@@ -47,6 +47,7 @@ $Rufina: 'Rufina', serif;
 /* G  E  N  E  R  A  L */
 html {
 	font-size: 62.5%;
+	overflow-x: hidden;
 }
 
 div.wrapper {
@@ -298,7 +299,7 @@ div.menuContent {
 		padding: 0 2rem;
 	}
 	p {
-		@include paragraphs(p)
+		@include paragraphs(p);
 		@include fontSizer(14);
 		padding: 0 2rem;
 	}
